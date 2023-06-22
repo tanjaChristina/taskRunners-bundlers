@@ -1,4 +1,4 @@
 {
     "installDependencies": true,
-    "startCommand":"build"
+    "startCommand":false
 }
