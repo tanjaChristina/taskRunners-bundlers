@@ -22,6 +22,9 @@ module.exports = {
       /* second task involves also a loader dealing with html, here would be a good place for it */
     ]
   },
+  devServer:{
+    static: './dist'
+  },
   output: {
     clean: true
   },
