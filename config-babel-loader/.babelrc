@@ -1,0 +1,5 @@
+{
+	"presets":["@babel/preset-env"] //preset-env takes any target environments you specified and checks them against 
+	// its mappings to compile a list of plugins and passes it to Babel (see browserlist-config in package.json)
+	// https://babeljs.io/docs/en/babel-preset-env
+}
