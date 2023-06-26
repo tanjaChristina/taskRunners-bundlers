@@ -4,6 +4,9 @@ const testTranspile = () => console.log(`I am an ES6 arrow function`);
 
 import "./styles.scss";
 
+//exercise 1 import
+import './images/frontend-ninja.jpg';
+
 /* 
 
 EXERCISE TODO:

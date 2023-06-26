@@ -17,8 +17,12 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
-      }
+      },
       /* insert image loader config here, all images should be outputted to directory 'asset/resources/images' */
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
       /* second task involves also a loader dealing with html, here would be a good place for it */
     ]
   },
@@ -26,7 +30,8 @@ module.exports = {
     static: './dist'
   },
   output: {
-    clean: true
+    clean: true,
+    assetModuleFilename: 'asset/resources/images/[name]'
   },
   plugins: [ new MiniCssExtractPlugin()]
 };
