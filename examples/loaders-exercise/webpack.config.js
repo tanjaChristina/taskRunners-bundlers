@@ -31,7 +31,7 @@ module.exports = {
   },
   output: {
     clean: true,
-    assetModuleFilename: 'asset/resources/images/[name]'
+    assetModuleFilename: 'asset/resources/images/[name][ext]'
   },
   plugins: [ new MiniCssExtractPlugin()]
 };
