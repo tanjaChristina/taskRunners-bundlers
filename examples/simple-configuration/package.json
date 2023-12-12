@@ -10,13 +10,10 @@
     "build:own": "webpack --mode production --config myConfig.js",
     "start:own": "webpack --mode development --config myConfig.js"
   },
-  "stackblitz": {
-    "startCommand": "npm run build"
-  },
   "author": "Tanja Breitwieser",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.87.0",
+    "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   }
 }
