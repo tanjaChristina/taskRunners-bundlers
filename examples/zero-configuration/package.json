@@ -1,14 +1,20 @@
 {
   "name": "zero-configuration",
   "version": "1.0.0",
-  "description": "try out stuff",
-  "main": "src/index.js",
+  "description": "webpack training",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
   },
-  "author": "",
+  "keywords": [
+    "webpack",
+    "cool"
+  ],
+  "author": "Tanja",
   "license": "ISC",
-  "stackblitz": {
-    "startCommand": false
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^4.10.0"
   }
 }
